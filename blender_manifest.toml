@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "retarget_bake"
+version = "1.3.2"
+name = "Retarget Bake"
+tagline = "Bake animations (FBX, GLB, Mesh2Motion library) onto another skeleton without touching weights"
+maintainer = "Local user <user@localhost>"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+network = "Download animation libraries from GitHub"
+files = "Cache downloaded animation files"
